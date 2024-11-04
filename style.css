@@ -2161,3 +2161,11 @@ body {
     font-size: 1.25rem;
     line-height: 1.75rem
 }
+
+.gallery > iframe {
+    display: inline-block !important;
+    max-width: 30% !important;
+    width: 30% !important;
+    margin: 150px !important;
+    vertical-align: top !important;
+}
