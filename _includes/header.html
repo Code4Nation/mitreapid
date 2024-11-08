@@ -1,0 +1,28 @@
+<header role="banner" style="
+    align-items: center;
+    background-color: white;
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    ">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a rel="author" href="/"><img width="200" src="/logos/logo-mitreapid-color.png"></a>
+    <nav style="display:flex; justify-content: center; padding-right: .5rem; width: 100%;">
+        <a style="font-weight: 700; font-size: 1.125rem; padding: .5rem" href="/">ABOUT</a>
+        <a style="font-weight: 700; font-size: 1.125rem; padding: .5rem" href="/board/">ADVISORY&nbsp;BOARD</a>
+        <a style="font-weight: 700; font-size: 1.125rem; padding: .5rem" href="/events/">EVENTS</a>
+    </nav>
+    <a style="font-weight: 700; font-size: 1.125rem;
+    background-color: hsl(var(--primary));
+    color: white;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    " href="/road/">ROAD&nbsp;TO&nbsp;MIT</a>
+</header>

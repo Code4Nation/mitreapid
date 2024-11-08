@@ -1,0 +1,19 @@
+title: MIT REAP Indonesia
+email: contact@mitreap.id
+description: Deep Tech untuk masa depan
+baseurl: "" # the subpath, it is empty because we use root folder of this repo
+url: "https://mitreap.id"
+instagram_username: mitreapid
+theme: minima
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

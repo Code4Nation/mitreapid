@@ -1,0 +1,42 @@
+<footer style="
+    background-color: hsl(var(--secondary));
+    border-color: hsl(var(--primary));
+    border-top-width: 1.5rem;
+    color: white;
+    padding-bottom: 1.25rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 1.25rem;
+    ">
+    <div style="
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        ">
+        <a rel="author" href="/"><img width="200" src="/logos/logo-mitreapid-white.png"></a>
+        <div style="
+            align-items: center;
+            border-radius: 9999px;
+            border-width: 1px;
+            display: flex;
+            font-size: 1.25rem;
+            justify-content: space-between;
+            line-height: 1.75rem;
+            max-width: fit-content;
+            ">
+            <span style="padding: 2rem;">Contact for more information</span>
+            <a style="
+            background-color: white;
+            border-radius: 9999px;
+            color: black;
+            padding: .25rem;
+            " href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </div>
+    </div>
+    <div style="background-color: hsl(var(--border)); height: 1px; margin-bottom: 20px; margin-top: 20px;"></div>
+    <div style="display: flex; flex-direction: row; justify-content: space-between;">
+        <span>© COPYRIGHT 2024 </span>
+        <div>{%- include social.html -%}</div>
+    </div>
+</footer>
